@@ -1,5 +1,5 @@
 # ezops-test-gabriel
-Projeto WebChat feito em Node.js dockerizado e com CI/CD
+Projeto WebChat feito em Node.js dockerizado e com CI/CD para ambiente na AWS
 
 
 .gitignore retirado de [rep](https://github.com/github/gitignore/blob/master/Node.gitignore)
