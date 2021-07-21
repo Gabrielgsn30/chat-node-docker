@@ -22,3 +22,9 @@ docker run -d --name ezops -p 3000:3000 nascimentogabriel/ezops:v1
 
 
 Para acesso do projeto acessar os seguintes IP's 54.213.15.4:3000 ou 54.190.184.226:3000 O projeto faz o deploy na AWS apenas quando tem novas releases. Favor verificar os dois IPs
+
+Feature implementada o chatbot alerta para não xingar no chat:
+
+Palavras:feio,bobo,idiota,chato,retardado
+
+Tambem caso digite chat -info irá aparecer uma mensagem de informação do sistema.
