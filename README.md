@@ -25,6 +25,8 @@ Para acesso do projeto acessar os seguintes IP's 54.213.15.4:3000 ou 54.190.184.
 
 Feature implementada o chatbot alerta para não xingar no chat:
 
+Caso digitar determinadas palavras o chatbot gera uma mensagem automatica para não xingar.
+
 Palavras:feio,bobo,idiota,chato,retardado
 
 Tambem caso digite chat -info irá aparecer uma mensagem de informação do sistema.
