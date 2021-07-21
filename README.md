@@ -28,3 +28,7 @@ Feature implementada o chatbot alerta para não xingar no chat:
 Palavras:feio,bobo,idiota,chato,retardado
 
 Tambem caso digite chat -info irá aparecer uma mensagem de informação do sistema.
+
+
+Serviços utilizados:
+Projeto em Node.js conforme citado acima é um Chat, esse projeto foi dockerizado através de uma imagem node, esse projeto também está no git, utilizado para versionamento do projeto. O Git também tem Actions, na qual implementamos o CI/CD para AWS, que por sua vez la na AWS utilizamos o ECR para armazenar a imagem, e o ECS(um cluster com 2 maquinas), foi implementado dessa maneira por não utilizar o proxy reverso, e como a AWS é uma hospedagem de alta disponibilidade ela não 'derruba' um service sem o outro estar ativo, e como os os services no deploy utilizam a mesma porta ocasiona erro. Dessa maneira com 2 instancias em um cluster a AWS consegue fazer o deploy hora em uma hora em outra. Uma solução simples para testes.... para nao depender de proxy reverso gerenciando portas.... Para o ambiente de producao ja não seria uma boa ideia.
