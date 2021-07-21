@@ -15,7 +15,9 @@ Para executar o projeto localmente deverá ter o docker instalado na sua maquina
 
 Para rodar localmente no seu docker apos baixar o projeto deverá rodar os seguintes comandos.
 Exemplo:
+
 docker build -t nascimentogabriel/ezops:v1 .
+
 docker run -d --name ezops -p 3000:3000 nascimentogabriel/ezops:v1 
 
 
