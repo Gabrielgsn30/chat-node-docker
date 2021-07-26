@@ -10,13 +10,7 @@ COPY package*.json ./
 
 RUN npm install
 
-RUN npm install -g nodemon && \
-npm install -s mongoose && \
-npm install -s body-parser && \
-npm install -s socket.io && \
-npm install -s http
-
-COPY . .
+RUN npm install -g nodemon 
 
 COPY --chown=node:node . .
 
