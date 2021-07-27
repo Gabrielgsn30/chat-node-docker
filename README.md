@@ -23,8 +23,7 @@ docker build -t nascimentogabriel/ezops:v1 .
 docker run -d --name ezops -p 3000:3000 nascimentogabriel/ezops:v1 
 
 
-Para acesso do projeto acessar os seguintes IP's 54.213.15.4:3000 ou 54.190.184.226:3000 O projeto faz o deploy na AWS apenas quando tem novas releases. Favor verificar os dois IPs
-
+Para acesso do projeto acessar o seguinte IP' http://54.218.93.13:3000/ O projeto faz o deploy na AWS apenas quando tem novas releases.
 Feature implementada o chatbot alerta para não xingar no chat:
 
 Caso digitar determinadas palavras o chatbot gera uma mensagem automatica para não xingar.
@@ -35,4 +34,4 @@ Tambem caso digite chat -info irá aparecer uma mensagem de informação do sist
 
 
 Serviços utilizados:
-Projeto em Node.js conforme citado acima é um Chat, esse projeto foi dockerizado através de uma imagem node, esse projeto também está no git, utilizado para versionamento do projeto. O Git também tem Actions, na qual implementamos o CI/CD para AWS, que por sua vez la na AWS utilizamos o ECR para armazenar a imagem, e o ECS(um cluster com 2 maquinas), foi implementado dessa maneira por não utilizar o proxy reverso, e como a AWS é uma hospedagem de alta disponibilidade ela não 'derruba' um service sem o outro estar ativo, e como os os services no deploy utilizam a mesma porta ocasiona erro. Dessa maneira com 2 instancias em um cluster a AWS consegue fazer o deploy hora em uma hora em outra. Uma solução simples para testes.... para nao depender de proxy reverso gerenciando portas.... Para o ambiente de producao ja não seria uma boa ideia.
+Projeto em Node.js conforme citado acima é um Chat, esse projeto foi dockerizado através de uma imagem node, esse projeto também está no git, utilizado para versionamento do projeto. O Git também tem Actions, na qual implementamos o CI/CD para AWS, que por sua vez la na AWS utilizamos o ECR para armazenar a imagem, e o ECS.
