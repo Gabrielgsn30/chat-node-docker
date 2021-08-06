@@ -1,6 +1,6 @@
 # chat-node-docker
 Projeto WebChat feito em Node.js dockerizado e com CI/CD para ambiente na AWS!....
-Tentando implementar o CI em jenkins 1º teste hoje 05/08/21
+Tentando implementar o CI em jenkins 1º teste hoje 05/08/21.
 
 
 .gitignore retirado de [rep](https://github.com/github/gitignore/blob/master/Node.gitignore)
