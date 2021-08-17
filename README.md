@@ -7,7 +7,6 @@ funcionou no commit testando a branch da develop agr.....
 parou a trigger??? e agr ngrok?
 
 
-
 .gitignore retirado de [rep](https://github.com/github/gitignore/blob/master/Node.gitignore)
 
 Projeto em node.js retirado de [site](https://betterprogramming.pub/simple-chat-application-in-node-js-using-express-mongoose-and-socket-io-ee62d94f5804)
