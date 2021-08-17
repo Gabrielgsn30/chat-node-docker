@@ -3,7 +3,8 @@ Projeto WebChat feito em Node.js dockerizado e com CI/CD para ambiente na AWS!..
 Tentando implementar o CI em jenkins 1º teste hoje 05/08/21....
 teste de pull de branch para jenkins....
 tentando webhook com ngrok!!!
-funcionou no commit testando a branch da develop agr.
+funcionou no commit testando a branch da develop agr.....
+parou a trigger??? e agr ngrok?
 
 
 .gitignore retirado de [rep](https://github.com/github/gitignore/blob/master/Node.gitignore)
