@@ -5,7 +5,7 @@ teste de pull de branch para jenkins....
 tentando webhook com ngrok!!!
 funcionou no commit testando a branch da develop agr.....
 parou a trigger??? e agr ngrok?
-
+testando o build before PR no merge.
 
 .gitignore retirado de [rep](https://github.com/github/gitignore/blob/master/Node.gitignore)
 
