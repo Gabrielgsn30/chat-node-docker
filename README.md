@@ -27,7 +27,7 @@ docker build -t nascimentogabriel/ezops:v1 .
 docker run -d --name ezops -p 3000:3000 nascimentogabriel/ezops:v1 
 
 
-Para acesso do projeto acessar o seguinte IP' http://54.218.93.13:3000/ O projeto faz o deploy na AWS apenas quando tem novas releases.
+Para acesso do projeto acessar o seguinte IP' http://54.149.60.7:3000/ ou pelo http://ec2-54-149-60-7.us-west-2.compute.amazonaws.com:3000/ O projeto faz o deploy na AWS apenas quando tem novas releases.
 Feature implementada o chatbot alerta para não xingar no chat:
 
 Caso digitar determinadas palavras o chatbot gera uma mensagem automatica para não xingar.
